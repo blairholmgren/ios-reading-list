@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FAA473F222820D65003F2557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA473F122820D65003F2557 /* AppDelegate.swift */; };
-		FAA473F422820D65003F2557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA473F322820D65003F2557 /* ViewController.swift */; };
 		FAA473F722820D65003F2557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA473F522820D65003F2557 /* Main.storyboard */; };
 		FAA473F922820D67003F2557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA473F822820D67003F2557 /* Assets.xcassets */; };
 		FAA473FC22820D67003F2557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA473FA22820D67003F2557 /* LaunchScreen.storyboard */; };
+		FAA474042282134F003F2557 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA474032282134F003F2557 /* Book.swift */; };
+		FAA474062282142F003F2557 /* BookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA474052282142F003F2557 /* BookController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAA473EE22820D65003F2557 /* ReadingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA473F122820D65003F2557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAA473F322820D65003F2557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAA473F622820D65003F2557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA473F822820D67003F2557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA473FB22820D67003F2557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA473FD22820D67003F2557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA474032282134F003F2557 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		FAA474052282142F003F2557 /* BookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,10 @@
 			isa = PBXGroup;
 			children = (
 				FAA473F122820D65003F2557 /* AppDelegate.swift */,
-				FAA473F322820D65003F2557 /* ViewController.swift */,
 				FAA473F522820D65003F2557 /* Main.storyboard */,
+				FAA474032282134F003F2557 /* Book.swift */,
 				FAA473F822820D67003F2557 /* Assets.xcassets */,
+				FAA474052282142F003F2557 /* BookController.swift */,
 				FAA473FA22820D67003F2557 /* LaunchScreen.storyboard */,
 				FAA473FD22820D67003F2557 /* Info.plist */,
 			);
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA473F422820D65003F2557 /* ViewController.swift in Sources */,
+				FAA474062282142F003F2557 /* BookController.swift in Sources */,
+				FAA474042282134F003F2557 /* Book.swift in Sources */,
 				FAA473F222820D65003F2557 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
