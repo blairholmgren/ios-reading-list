@@ -17,7 +17,7 @@ class BookController {
     }
     
        
-    }
+    
     
     func saveToPersistentStore() {
         guard let url = readingListURL else { return }

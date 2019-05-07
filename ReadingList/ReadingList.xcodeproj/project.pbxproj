@@ -13,6 +13,7 @@
 		FAA473FC22820D67003F2557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA473FA22820D67003F2557 /* LaunchScreen.storyboard */; };
 		FAA474042282134F003F2557 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA474032282134F003F2557 /* Book.swift */; };
 		FAA474062282142F003F2557 /* BookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA474052282142F003F2557 /* BookController.swift */; };
+		FAA47408228232B9003F2557 /* ReadingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA47407228232B9003F2557 /* ReadingListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FAA473FD22820D67003F2557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA474032282134F003F2557 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		FAA474052282142F003F2557 /* BookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookController.swift; sourceTree = "<group>"; };
+		FAA47407228232B9003F2557 /* ReadingListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FAA473F122820D65003F2557 /* AppDelegate.swift */,
 				FAA473F522820D65003F2557 /* Main.storyboard */,
 				FAA474032282134F003F2557 /* Book.swift */,
+				FAA47407228232B9003F2557 /* ReadingListTableViewController.swift */,
 				FAA473F822820D67003F2557 /* Assets.xcassets */,
 				FAA474052282142F003F2557 /* BookController.swift */,
 				FAA473FA22820D67003F2557 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA47408228232B9003F2557 /* ReadingListTableViewController.swift in Sources */,
 				FAA474062282142F003F2557 /* BookController.swift in Sources */,
 				FAA474042282134F003F2557 /* Book.swift in Sources */,
 				FAA473F222820D65003F2557 /* AppDelegate.swift in Sources */,
